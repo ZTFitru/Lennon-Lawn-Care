@@ -1,0 +1,16 @@
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    padding: 20px 20px; 
+    background-color: #f8f8f8; 
+    flex-wrap: wrap;
+}
+
+.footer-cont {
+    display: flex;
+    align-items: center; 
+    img {
+        height: 60px;
+    }
+}
