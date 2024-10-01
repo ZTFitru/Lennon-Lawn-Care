@@ -1,3 +1,4 @@
+import About from "../About/About";
 import Footer from "../Footer/Footer";
 import Navbar from "../Navbar/Navbar";
 import Service from "../Service/Service";
@@ -14,6 +15,7 @@ const App = ()=> {
             <Routes>
                 <Route path='/' element={<Titlepage />} />
                 <Route path='/service' element={<Service />} />
+                <Route path='/about-us' element={<About />} />
             </Routes>
             <Footer />
         </main>
