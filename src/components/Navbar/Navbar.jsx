@@ -14,7 +14,7 @@ const Navbar = ()=> {
                 <ul>
                     <li><NavLink to={'/service'}>Service</NavLink></li>
                     <li><NavLink to={'/about-us'}>About-Us</NavLink></li>
-                    <li className='contact-us'>Contact Us</li>
+                    <li className='contact-us'><NavLink to={'/contact-us'}>Contact Us</NavLink></li>
                 </ul>
             </nav>
         </header>
