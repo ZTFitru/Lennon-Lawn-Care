@@ -1,5 +1,6 @@
 import './Navbar.css'
 import Logo from '../../assets/Lennon_Lawn_Care-removebg-preview.png'
+import { NavLink } from 'react-router-dom';
 // import Logo from '../../assets/Lennon Lawn Care.png'
 
 const Navbar = ()=> {
@@ -12,7 +13,7 @@ const Navbar = ()=> {
             </div>
             <nav>
                 <ul>
-                    <li>Service</li>
+                    <li><NavLink to={'/service'}>Service</NavLink></li>
                     <li>About</li>
                     <li className='contact-us'>Contact Us</li>
                 </ul>
@@ -21,4 +22,4 @@ const Navbar = ()=> {
     )
 }
 
-export default Navbar
+export default Navbar;
