@@ -1,5 +1,4 @@
 import Footer from "../Footer/Footer";
-import Home from "../Home/Home";
 import Navbar from "../Navbar/Navbar";
 import Service from "../Service/Service";
 import Titlepage from "../Titlepage/Titlepage";

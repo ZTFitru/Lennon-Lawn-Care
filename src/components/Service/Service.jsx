@@ -12,7 +12,7 @@ const Service = ()=> {
             <div className="services-inner">
                 <div className="services-container">
                     <img src={Fall} alt="fall leaves"/>
-                    <h3>Spring/Fall Clean-Up</h3>
+                    <h2>Spring/Fall Clean-Up</h2>
                     <p>
                         As the seasons transition, your lawn requires special attention to ensure its health and
                         vitality.
@@ -21,7 +21,7 @@ const Service = ()=> {
                     </p>
                 </div>
                 <div className="services-container">
-                    <h3>Tree & Shrub Planting</h3>
+                    <h2>Tree & Shrub Planting</h2>
                     <p>
                         Enhance the beauty and vitality of your landscape with our expert Tree & Shrub Planting
                         services. At Lennon Landscapes,
@@ -32,7 +32,7 @@ const Service = ()=> {
                 </div>
                 <div className="services-container">
                     <img src={Sod} alt="" />
-                    <h3>Sod Installation</h3>
+                    <h2>Sod Installation</h2>
                     <p>
                         Achieve an instantly lush and vibrant lawn with our professional Sod Installation services at
                         Lennon Landscapes.

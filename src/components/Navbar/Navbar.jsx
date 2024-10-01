@@ -9,7 +9,7 @@ const Navbar = ()=> {
     return (
         <header className='nav-outter'>
             <Link to={'/'} className='nav-cont'>
-                <img src={Logo} alt={`Headshot of ${Logo}`} />
+                <img src={Logo} alt={`Trademark`} />
             </Link>
             <nav>
                 <ul>
