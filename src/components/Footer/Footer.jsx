@@ -8,6 +8,9 @@ const Footer = ()=> {
             <div className='footer-cont'>
                 <img src={Logo} alt={`Trademark`} />
             </div>
+            <div className='footer-text'>
+                <p>Elevate Your Surroundings with Lennon Lawn Care.</p>
+            </div>
         </footer>
     )
 }
