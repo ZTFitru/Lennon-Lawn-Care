@@ -11,9 +11,27 @@
     padding: 20px;
     border: 1px solid #ccc;
     border-radius: 5px;
-    background-color: white;
+    background-color: #BDC3C7;
     h1 {
         text-align: center;
+        color: black;
+    }
+    label {
+        display: block;
+        margin-bottom: 5px;
+        color: black;
+    }
+    input {
+        background-color: #BDC3C7;
+    }
+    button {
+        width: 100%;
+        padding: 10px;
+        border: none;
+        border-radius: 4px;
+        background-color: #2C3E50;
+        color: white;
+        cursor: pointer;
     }
 }
 
@@ -21,17 +39,16 @@
     margin-bottom: 15px;
 }
 
-.contact-form label {
-    display: block;
-    margin-bottom: 5px;
-}
-
 .contact-form input,
 .contact-form textarea {
     width: 100%;
     padding: 8px;
-    border: 1px solid #ccc;
+    border: 1px solid black;
     border-radius: 4px;
+}
+
+textarea {
+    background-color: #BDC3C7;
 }
 
 .contact-form button {
