@@ -28,12 +28,19 @@ nav {
         margin-left: 20px; 
         cursor: pointer; 
         color: black;
+    }
+    a {
+        color: black;
         font-size: 20px;
     }
 }
 
 nav li:hover {
     text-decoration: underline; 
+}
+
+nav li a:hover {
+    color: rgb(0,90,8);
 }
 
 .contact-us {
@@ -45,6 +52,9 @@ nav li:hover {
         margin-left: 20px;
         li {
             font-size: 15px;
+        }
+        a {
+            font-size: 14px;
         }
     }
 

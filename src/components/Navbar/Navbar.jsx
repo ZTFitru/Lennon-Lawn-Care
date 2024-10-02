@@ -1,24 +1,24 @@
 import './Navbar.css'
 import Logo from '../../assets/Lennon_Lawn_Care-removebg-preview.png'
-// import Logo from '../../assets/Lennon Lawn Care.png'
+import { Link, NavLink } from 'react-router-dom';
 
 const Navbar = ()=> {
 
 
     return (
         <header className='nav-outter'>
-            <div className='nav-cont'>
-                <img src={Logo} alt={`Headshot of ${Logo}`} />
-            </div>
+            <Link to={'/'} className='nav-cont'>
+                <img src={Logo} alt={`Trademark`} />
+            </Link>
             <nav>
                 <ul>
-                    <li>Service</li>
-                    <li>About</li>
-                    <li className='contact-us'>Contact Us</li>
+                    <li><NavLink to={'/service'}>Service</NavLink></li>
+                    <li><NavLink to={'/about-us'}>About-Us</NavLink></li>
+                    <li className='contact-us'><NavLink to={'/contact-us'}>Contact Us</NavLink></li>
                 </ul>
             </nav>
         </header>
     )
 }
 
-export default Navbar
+export default Navbar;

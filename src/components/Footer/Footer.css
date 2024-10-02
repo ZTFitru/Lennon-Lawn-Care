@@ -1,9 +1,9 @@
 footer {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center; 
     padding: 20px 20px; 
-    background-color: #f8f8f8; 
+    background-color: #BDC3C7; 
     flex-wrap: wrap;
 }
 
@@ -12,5 +12,27 @@ footer {
     align-items: center; 
     img {
         height: 60px;
+    }
+}
+
+.footer-text {
+    text-align: center;
+}
+
+@media only screen and (max-width: 448px) {
+    footer {
+        padding: 0;
+    }
+    
+    .footer-cont {
+        img {
+            height: 50px;
+        }
+    }
+
+    .footer-text {
+        p {
+            font-size: 12px;
+        }
     }
 }
